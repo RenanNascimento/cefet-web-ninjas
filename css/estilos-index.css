@@ -1,6 +1,6 @@
 .numero-passo {
-	color: #00008B; /* DarkBlue */
-	background-color: #00CED1; /* DarkTurquoise */
+	color: DarkBlue;
+	background-color: DarkTurquoise;
 	background-size: 300px 300px;
 	font-family: Andale Mono, monospace; 
 }

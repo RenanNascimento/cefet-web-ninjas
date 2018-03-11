@@ -16,19 +16,19 @@ h1, h2 {
 }
 
 a:link {
-	color: #00008B; /* DarkBlue */
+	color: DarkBlue;
 }
 
 a:visited {
-	color: #2F4F4F; /* DarkSlateGray  */
+	color: DarkSlateGray;
 }
 
 a:hover {
-	color: #00CED1; /* DarkTurquoise */
+	color: DarkTurquoise;
 }
 
 a:active  {
-	color: #696969; /* DimGray */
+	color: DimGray;
 }
 
 a[href^="http"]:before {
@@ -40,4 +40,14 @@ a[href^="http"]:before {
 
 .apagadinho {
 	opacity: 0.7;
+}
+
+body {
+	padding: 50px 100px 50px 100px;
+	background-color: #ccccff; /*DarkBlue - 90% */
+	text-align: justify;
+}
+
+strong {
+	color: BlueViolet;
 }
