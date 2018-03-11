@@ -1,0 +1,54 @@
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+
+iframe {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+h1, h2 {
+	font-family: Andale Mono, monospace; 
+}
+
+a:link {
+	color: #00008B; /* DarkBlue */
+}
+
+a:visited {
+	color: #2F4F4F; /* DarkSlateGray  */
+}
+
+a:hover {
+	color: #00CED1; /* DarkTurquoise */
+}
+
+a:active  {
+	color: #696969; /* DimGray */
+}
+
+a[href^="http"]:before {
+	content: " ";
+	width: 20px;
+	background-image: url(img/globo.png);
+	background-repeat: no-repeat;
+}
+
+.apagadinho {
+	opacity: 0.7;
+}
+
+.numero-passo {
+	color: #00008B; /* DarkBlue */
+	background-color: #00CED1; /* DarkTurquoise */
+	background-size: 300px 300px;
+	font-family: Andale Mono, monospace; 
+}
+
+.nome-passo {
+	font-size: 20px;
+}
