@@ -33,8 +33,10 @@ a:active  {
 
 a[href^="http"]:before {
 	content: " ";
+	height: 20px;
 	width: 20px;
-	background-image: url(img/globo.png);
+	display: inline-block;
+	background-image: url(../img/globo.png);
 	background-repeat: no-repeat;
 }
 
